@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+nav {
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.logo{
+    margin-left: 15px;
+}
+.right i {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.input-group {
+    width: 350px;
+}
+.not{
+    background-color: white;
+    width: 100px;
+}
+.net,.job{
+    background-color: white;
+    width: 70px;
+}
+.msg{
+    background-color: white;
+    width: 85px;
+}
+.user {
+    padding-right: 20px;
+}
+.tdots {
+    display: flex;
+    gap: 2px;
+    margin-top: -20px;
+    margin-left: -25px;
+}
+.pre {
+    margin-right: 30px;
+    margin-top: -11px;
+}
+.home {
+    width: 75px;
+}
+.home:hover {
+    background-color: rgba(201, 198, 198, 0.664);
+    cursor: pointer;
+}
+.net:hover {
+    background-color: rgba(201, 198, 198, 0.664);
+    cursor: pointer;
+    width: 70px;
+}
+.job:hover {
+    background-color: rgba(201, 198, 198, 0.664);
+    cursor: pointer;
+    width: 70px;
+}
+.msg:hover {
+    background-color: rgba(201, 198, 198, 0.664);
+    cursor: pointer;
+    width: 85px;
+}
+.not:hover {
+    background-color: rgba(201, 198, 198, 0.664);
+    cursor: pointer;
+    width: 100px;
+}
+.user:hover,.pre:hover,.tdots:hover,.logo:hover{
+    cursor: pointer;
+}
+.sec1 {
+    margin-top: 70px;
+    min-height: 100vh;
+    background-color: rgb(233, 233, 231);
+    overflow: scroll;
+    position: relative;
+    z-index: 0;
+}
+.l1 {
+    width: 270px;
+    height: 100vh;
+    margin-left: 2px;
+    margin-top: 20px;
+}
+.ll1 {
+    width: 100%;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgba(189, 189, 189, 0.875);
+    margin-bottom: 10px;
+}
+.banner {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.profile {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: -35px;
+}
+.ll1grp {
+    padding: 15px;
+}
+.ll2 {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgba(189, 189, 189, 0.875);
+    margin-bottom: 10px;
+    padding: 25px;
+}
+.ll2 td {
+    padding: 8.5px;
+}
+.ll3 {
+    width: 100%;
+    min-height: 75px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgba(189, 189, 189, 0.875);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.f3 {
+    margin-top: -10px;
+}
+.ll4 {
+    width: 100%;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgba(189, 189, 189, 0.875);
+    padding: 10px;
+}
+.m1 {
+    width: 620px;
+    height: 100vh;
+    margin: 0 5px;
+    margin-top: 20px;
+}
+.mm1 {
+    width: 100%;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgba(189, 189, 189, 0.875);
+    margin-bottom: 15px;
+}
+.icon {
+    font-size: 40px;
+    margin: 23px 10px;
+}
+.post {
+    width: 530px;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 19px;
+}
+.mew {
+    font-size: 20px;
+}
+.mm2 {
+    width: 100%;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgba(189, 189, 189, 0.875);
+    margin-bottom: 10px;
+}
+.box {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(208, 232, 255, 0.705);
+    padding: 10px;
+}
+.signin {
+    margin-left: 500px;
+    margin-top: -110px;
+    border-radius: 25px;
+    width: 90px;
+}
+.likes {
+    margin-top: 15px;
+    margin-left: 415px;
+}
+.border {
+    width: 100%;
+    border: 1px solid rgba(225, 223, 223, 0.577);
+}
+.last1 {
+    background-color: white;
+    width: 60px;
+    padding: 0 5px;
+}
+
+.last2 {
+    background-color: white;
+    width: 100px;
+    padding: 0 3px;
+}
+
+.last3 {
+    background-color: white;
+    width: 80px;
+    padding: 0 5px;
+}
+
+.last4 {
+    background-color: white;
+    width: 65px;
+    padding: 0 3px;
+}
+
+.last1:hover {
+    cursor: pointer;
+    background-color: #d2d2d2b2;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.last2:hover {
+    cursor: pointer;
+    background-color: #d2d2d2b2;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.last3:hover {
+    cursor: pointer;
+    background-color: #d2d2d2b2;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.last4:hover {
+    cursor: pointer;
+    background-color: #d2d2d2b2;
+    width: 65px;
+    height: 30px;
+    border-radius: 5px;
+}
+.r1 {
+    width: 300px;
+    height: 100vh;
+    margin-right: 20px;
+    margin-top: 20px;
+    position: sticky;
+    top: -725px;
+}
+.rr1 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgba(189, 189, 189, 0.875);
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.puzzle {
+    margin-top: 25px;
+}
+.rr2 {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgba(189, 189, 189, 0.875);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.threegrp {
+    padding-bottom: 100px;
+}
+.rr2:hover,.post:hover{
+    cursor: pointer;
+}
+.trend:hover {
+    cursor: pointer;
+    background-color: #dadadaa9;
+}
+
+.a1 {
+    margin-left: 50px;
+}
+
+.a2,.a3,.a4 {
+    margin-left: 37px;
+}
+
+@media(max-width:1200px) {
+    .r1 {
+        display: none;
+    }
+    .m1 {
+        width: 700px;
+        height: 900px;
+    }
+    .l1 {
+        width: 25vw;
+        margin-top: -295px;
+    }
+    .ll3 {
+        height: 100px;
+        padding: 13.5px;
+    }
+    .tdots,
+    .pre {
+        display: none;
+    }
+}
+@media(max-width:900px) {
+    .r1 {
+        display: none;
+    }
+    .m1 {
+        width: 700px;
+    }
+    .l1 {
+        display: none;
+    }
+}
